@@ -1,6 +1,5 @@
 var L = require('leaflet'),
 	Control = require('./control'),
-	Name = require('./name'),
 	Nominatim = require('./geocoders/nominatim'),
 	Bing = require('./geocoders/bing'),
 	MapQuest = require('./geocoders/mapquest'),
