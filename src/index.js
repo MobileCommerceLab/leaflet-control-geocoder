@@ -37,7 +37,5 @@ module.exports = L.Util.extend(Control.class, {
 
 L.Util.extend(L.Control, {
 	Geocoder: module.exports,
-	geocoder: Control.factory,
-	NameSelector: Name.class,
-	nameselector: Name.factory
+	geocoder: Control.factory
 });
