@@ -2,7 +2,7 @@
 
 npm update
 
-VERSION=`echo "console.log(require('./package.json').version)" | node`
+VERSION=`echo "console.log(require('../package.json').version)" | node`
 
 npm install
 git add dist/* -f
