@@ -156,7 +156,6 @@ module.exports = {
 			}
 
 			this.fire('markgeocode', {geocode: result});
-			this.fire('markgeocode', {geocode: result});
 		},
 
 		_toggle: function() {
